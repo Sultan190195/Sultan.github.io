@@ -1,0 +1,163 @@
+html {
+	background-color:#3893bd;
+}
+
+
+.header {
+	width:100%;
+	height:300px;
+	background-color:#dcffc1;  
+}
+
+.header1 {
+	width: 1200px;
+	margin: 0px auto;
+}
+	
+.font {
+	font-size: 35px;
+	font-family: "Lato", arial, sans-serif;
+	color: #778492;
+	text-align: center;
+	margin-left: 270px;
+    margin-top:-220px
+}
+.font1 {
+	font-size: 20px;
+	font-family: "Lato", arial, sans-serif;
+    color: #778492;
+    text-align: center;
+    margin-left: 220px;
+    margin-top: -10px;
+}
+.logo {
+	width: 250px;
+	height: 250px;
+	margin-top: 30px
+}
+.content {
+	width: 1200px;
+	margin: 0px auto;
+} 
+
+
+.leftpart {
+
+	background-color: #fff;
+	width: 700px; 
+	height: 1075px;
+	margin-top: 50px
+}
+.font3 {
+	font-size: 25px;
+	font-family: "Lato", arial, sans-serif;
+	padding: 30px;
+	color: #778492;
+}
+.sidebar {
+	background-color: #fff;
+	width: 635px; 
+	height: 945px;
+	margin-left: 30px;
+	margin-top: -30px;
+	border: 2px  solid black;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.rightpart1 {
+	background-color: #fff;
+	width: 430px; 
+	height: 500px;
+	margin-top: -1090px;
+	margin-left: 750px
+}
+.font4 {
+	font-size: 25px;
+	font-family: "Lato", arial, sans-serif;
+	color: #778492;
+	text-align: center;
+	padding-top: 100px;
+}
+.rightpart2 {
+	background-color: white;
+	width: 430px; 
+    height: 170px;
+    margin-top: 40px;
+	margin-left: 750px
+
+}
+.font5 {
+	font-family: "Lato", arial, sans-serif;
+	font-size: 20px;
+    padding: 20px;
+	color: #778492;
+}
+.button {
+    height:30px;
+	width: 360px;
+    background:#3CB371;
+    cursor:pointer;
+    border-width: 0px 0;
+    border-radius: 8px;
+    font-family: "Lato", arial, sans-serif;
+	font-weight: bold; 
+	font:2.4em;
+	color: #FFE4E1;
+    font-size:20px;
+    margin-top: -15px;
+    margin-left: 20px
+	
+}
+.button1 {
+	height:30px;
+	width: 360px;
+    background:#3CB371;
+    cursor:pointer;
+    border-width: 0px 0;
+    border-radius: 8px;
+    font-family: "Lato", arial, sans-serif;
+	font-weight: bold; 
+	font:2.4em;
+	color: #FFE4E1;
+    font-size:20px;
+    margin-top: -10px;
+    margin-left: 20px
+}
+.map {
+	margin-top: 40px;
+	margin-left: 750px
+
+}
+.foot {
+	width: 100%;
+	background-color:#696969; 
+	margin-top: 30px
+
+}
+.footer1 {
+	width: 1200px;
+	margin: 0px auto;
+	text-align: center;
+	font-family: "Lato", arial, sans-serif;
+	font-weight: bold; 
+	font-size:20px;
+	
+} 
+@media (max-width: 1200px){
+	.content{
+		max-width: 970px;
+	}
+
+}
+@media (max-width: 992px){
+	.content{
+		max-width: 750px;
+	}
+
+}
+@media (max-width: 767px){
+	.content{
+		max-width: none;
+	}
+
+}
